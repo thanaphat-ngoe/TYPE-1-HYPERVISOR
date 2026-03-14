@@ -1,7 +1,7 @@
 .POSIX:
 .PHONY: all clean
 
-TARGET  = bootx64.efi
+TARGET  = ../built/bootx64.efi
 SOURCE  = efi.c
 HEADERS = efi.h
 
